@@ -55,4 +55,6 @@ spec:
         - "$(params.NAMESPACE)"
         - "-e"
         - "$(params.EVENTBUS)"
+        - "-r"
+        - "$(results.url.path)"
 
