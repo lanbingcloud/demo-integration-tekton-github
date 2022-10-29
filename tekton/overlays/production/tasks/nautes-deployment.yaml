@@ -31,6 +31,9 @@ spec:
       type: string
     - name: NAMESPACE
       type: string
+  results:
+    - name: url
+      description: application server url.
   steps:
     - name: listener
       image: $(params.NAUTES_BOT_IMAGE)
