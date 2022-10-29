@@ -18,7 +18,7 @@ spec:
     - name: NAUTES_BOT_IMAGE
       type: string
       description: base image
-      default: ghcr.io/nautes-labs/demo-bot:0.0.1-a6ec36f35c555d489e53516447e0d69663122d73
+      default: ghcr.io/nautes-labs/demo-bot:0.0.1-ba841f5efee7914798580606be150f1b5bc36ddb
     - name: PROJECT
       type: string
     - name: APPLICATION

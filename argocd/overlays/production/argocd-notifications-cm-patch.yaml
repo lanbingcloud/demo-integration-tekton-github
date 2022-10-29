@@ -20,7 +20,8 @@ data:
             "revision": "{{.app.status.operationState.syncResult.revision}}",
             "phase": "{{.app.status.operationState.phase}}",
             "sync_status": "{{.app.status.sync.status}}",
-            "healthy": "{{.app.status.health.status}}"
+            "healthy": "{{.app.status.health.status}}",
+            "url": "http://devops-sample.119-8-58-20.nip.io:30080"
           }
   trigger.on-deployed: |
     - description: Application is synced and healthy. Triggered once per commit.
